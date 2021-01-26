@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 800 400" style="enable-background:new 0 0 800 400;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E1EEF7;}
+	.st1{fill:#4683B4;}
+	.st2{fill:#E1EEF7;stroke:#4683B4;stroke-width:7;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st4{fill:#FF0000;}
+	.st5{font-family:'Corbel';}
+	.st6{font-size:32px;}
+</style>
+<g>
+	<polygon class="st0" points="153.2,329.5 78.5,200 153.2,70.5 302.8,70.5 377.5,200 302.8,329.5 	"/>
+	<path class="st1" d="M300.7,74l72.7,126l-72.7,126H155.3L82.5,200l72.7-126H300.7 M304.8,67H151.2L74.4,200l76.8,133h153.6
+		l76.8-133L304.8,67L304.8,67z"/>
+</g>
+<polygon class="st2" points="475.5,71.5 662.5,71.5 736.5,200.5 669.5,333.5 475.5,333.5 550.5,202.5 "/>
+<line class="st3" x1="157.5" y1="137.5" x2="307.5" y2="249.5"/>
+<circle class="st4" cx="158" cy="138" r="3"/>
+<circle class="st4" cx="307.5" cy="249.5" r="2.5"/>
+<line class="st3" x1="532.7" y1="103.8" x2="531" y2="291"/>
+<circle class="st4" cx="532.6" cy="104.5" r="3"/>
+<circle class="st4" cx="531" cy="291" r="2.5"/>
+<text transform="matrix(1 0 0 1 147.4058 171.3496)" class="st5 st6">A</text>
+<text transform="matrix(1 0 0 1 299.5244 233.2939)" class="st5 st6">B</text>
+<text transform="matrix(1 0 0 1 543.1847 111.4124)" class="st5 st6">A</text>
+<text transform="matrix(1 0 0 1 542.8566 303.4124)" class="st5 st6">B</text>
+<text transform="matrix(1 0 0 1 171.7974 382.4893)" class="st5 st6">Convexo</text>
+<text transform="matrix(1 0 0 1 504.3145 382.5664)" class="st5 st6">Não Convexo</text>
+</svg>
