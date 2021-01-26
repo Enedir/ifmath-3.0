@@ -1,7 +1,7 @@
 import { Component, OnInit, OnChanges } from '@angular/core';
 import { Router, NavigationEnd, ActivatedRoute, PRIMARY_OUTLET, NavigationStart } from '@angular/router';
 
-import 'rxjs/add/operator/filter';
+
 
 @Component({
   selector: 'ifmath-navbar',

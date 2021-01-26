@@ -24,11 +24,12 @@ export class HomeComponent implements OnInit {
   public imageBannerTwo: string;
   public imageBannerThree: string;
 
-  constructor(private matIconRegistry: MatIconRegistry, private domSanitizer: DomSanitizer) {
-    this.populaIcones();
-  }
+  constructor(private MatIconRegistry: MatIconRegistry, private domSanitizer: DomSanitizer) {
 
+    //this.populaIcones();
+  }
   ngOnInit() {
+    /*
     this.imageBannerOne = require('assets/images/banners/banner_da_hora.jpg');
     this.imageBannerTwo = require('assets/images/banners/banner_da_hora.jpg');
     this.imageBannerThree = require('assets/images/banners/banner_da_hora.jpg');
@@ -100,21 +101,22 @@ export class HomeComponent implements OnInit {
   }
 
   private populaIcones(): void {
-    this.matIconRegistry.addSvgIcon(
+    this.MatIconRegistry.addSvgIcon(
       'fx',
       this.domSanitizer.bypassSecurityTrustResourceUrl(require('assets/images/icons/fx.svg'))
     );
-    this.matIconRegistry.addSvgIcon(
+    this.MatIconRegistry.addSvgIcon(
       'sigma',
       this.domSanitizer.bypassSecurityTrustResourceUrl(require('assets/images/icons/sigma.svg'))
     );
-    this.matIconRegistry.addSvgIcon(
+    this.MatIconRegistry.addSvgIcon(
       'trigonometry',
       this.domSanitizer.bypassSecurityTrustResourceUrl(require('assets/images/icons/trigonometry.svg'))
     );
-    this.matIconRegistry.addSvgIcon(
+    this.MatIconRegistry.addSvgIcon(
       'estatistica',
       this.domSanitizer.bypassSecurityTrustResourceUrl(require('assets/images/icons/estatistica.svg'))
     );
+    */
   }
 }
