@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'ifmath-jsc-sidebar',
+  selector: 'app-ifmath-jsc-sidebar',
   templateUrl: './jsc-sidebar.component.html',
   styleUrls: ['./jsc-sidebar.component.scss']
 })

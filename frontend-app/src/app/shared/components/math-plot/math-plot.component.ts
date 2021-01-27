@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 declare var require: any;
 
 @Component({
-  selector: 'ifmath-math-plot',
+  selector: 'app-ifmath-math-plot',
   templateUrl: './math-plot.component.html',
   styleUrls: ['./math-plot.component.scss']
 })

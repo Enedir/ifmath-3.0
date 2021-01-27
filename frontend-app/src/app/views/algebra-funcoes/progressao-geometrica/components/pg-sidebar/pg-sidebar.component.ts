@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'ifmath-pg-sidebar',
+  selector: 'app-ifmath-pg-sidebar',
   templateUrl: './pg-sidebar.component.html',
   styleUrls: ['./pg-sidebar.component.scss']
 })

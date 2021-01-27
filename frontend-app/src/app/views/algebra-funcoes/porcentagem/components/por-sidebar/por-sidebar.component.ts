@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'por-sidebar',
+  selector: 'app-por-sidebar',
   templateUrl: './por-sidebar.component.html'
 })
 export class PorSidebarComponent implements OnInit {
