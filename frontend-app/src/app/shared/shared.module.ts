@@ -1,7 +1,7 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { AngularFontAwesomeModule } from 'angular-font-awesome';
+//import { FontAwesomeModule } from 'angular-fontawesome';
 import { KatexModule } from 'ng-katex';
 
 import { MatButtonModule } from '@angular/material/button'
@@ -37,7 +37,7 @@ import { MathPlotComponent } from './components/math-plot/math-plot.component';
     MatListModule,
     MatExpansionModule,
     MatSidenavModule,
-    AngularFontAwesomeModule,
+    //FontAwesomeModule,
     KatexModule,
   ],
 
@@ -58,7 +58,7 @@ import { MathPlotComponent } from './components/math-plot/math-plot.component';
     LoadingSpinnerComponent,
     ReactiveFormsModule,
     BaseViewComponent,
-    AngularFontAwesomeModule,
+    //FontAwesomeModule,
     ModalErrorComponent,
     KatexModule,
     MathPlotComponent,
