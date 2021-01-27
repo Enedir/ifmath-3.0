@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   // tslint:disable-next-line:component-selector
-  selector: 'ifmath-tri-sidebar',
+  selector: 'app-ifmath-tri-sidebar',
   templateUrl: './tri-sidebar.component.html',
   styleUrls: ['./tri-sidebar.component.scss']
 })

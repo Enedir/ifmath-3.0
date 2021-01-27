@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'ifmath-app',
+  selector: 'app-ifmath-app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })

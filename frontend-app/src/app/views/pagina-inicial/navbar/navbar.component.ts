@@ -4,7 +4,7 @@ import { Router, NavigationEnd, ActivatedRoute, PRIMARY_OUTLET, NavigationStart 
 
 
 @Component({
-  selector: 'ifmath-navbar',
+  selector: 'app-ifmath-navbar',
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.scss']
 })

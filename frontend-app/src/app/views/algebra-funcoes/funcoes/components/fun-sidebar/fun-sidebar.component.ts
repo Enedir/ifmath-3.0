@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'ifmath-fun-sidebar',
+  selector: 'app-ifmath-fun-sidebar',
   templateUrl: './fun-sidebar.component.html'
 })
 export class FunSidebarComponent implements OnInit {

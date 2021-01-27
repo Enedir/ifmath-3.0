@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'rdt-sidebar',
+  selector: 'app-rdt-sidebar',
   templateUrl: './rdt-sidebar.component.html'
 })
 export class RdtSidebarComponent implements OnInit {

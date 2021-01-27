@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'ifmath-pa-sidebar',
+  selector: 'app-ifmath-pa-sidebar',
   templateUrl: './pa-sidebar.component.html',
   styleUrls: ['./pa-sidebar.component.scss']
 })
