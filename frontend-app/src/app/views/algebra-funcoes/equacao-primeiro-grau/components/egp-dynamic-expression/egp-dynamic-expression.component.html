@@ -34,19 +34,19 @@
 
   <!-- region Resultados -->
   <div class="col-sm-12">
-    <ifmath-ng-results [loading]="loading" [resultados]="results"></ifmath-ng-results>
+    <app-ifmath-ng-results [loading]="loading" [resultados]="results"></app-ifmath-ng-results>
   </div>
 
   <!-- <div class="context-plot">
-    <ifmath-math-plot class="plot"></ifmath-math-plot>
+    <app-ifmath-math-plot class="plot"></app-ifmath-math-plot>
   </div> -->
 
 
   <!-- endregion -->
 </section>
 
-<ifmath-ng-modal-error #modalError>
+<app-ifmath-ng-modal-error #modalError>
   <div class="content">
     <p> {{ errorMessage }} </p>
   </div>
-</ifmath-ng-modal-error>
+</app-ifmath-ng-modal-error>
