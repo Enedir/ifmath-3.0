@@ -4,8 +4,9 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './views/pagina-inicial/home/home.component';
 import { SobreComponent } from './views/pagina-inicial/sobre/sobre.component';
 import { ErrorPagesComponent } from './views/pagina-inicial/error-pages/error-pages.component';
-/*
+
 import { AlgebraFuncoesComponent } from './views/pagina-inicial/algebra-funcoes/algebra-funcoes.component';
+/*
 import { GeometriaComponent } from './views/pagina-inicial/geometria/geometria.component';
 import { NumerosOperacoesComponent } from './views/pagina-inicial/numeros-operacoes/numeros-operacoes.component';
 */
@@ -45,7 +46,7 @@ const routes: Routes = [
   },
 
   //#region Algebra e Funções
-/*
+
   {
     path: 'algebra_e_funcoes',
     component: AlgebraFuncoesComponent,
@@ -157,7 +158,7 @@ const routes: Routes = [
   },
 
   //#endregion Algebra e Funções
-
+/*
   //#region Geometria
 
   {

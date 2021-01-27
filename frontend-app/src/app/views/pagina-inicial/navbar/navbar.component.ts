@@ -29,8 +29,8 @@ export class NavbarComponent implements OnInit {
     });
 
     this.router.events.subscribe((event: any) => {
-      if(event instanceof NavigationStart) {
-        if(event.url.search('geometria') === -1) {
+      if (event instanceof NavigationStart) {
+        if (event.url.search('geometria') === -1) {
           this.color = '#359d6e';
         } else {
           this.color = '#4683b4';

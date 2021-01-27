@@ -9,8 +9,9 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { NavBarService } from './navbar/navbar.service';
 
 import { AppRoutingModule } from '../../app-routing.module';
-/*
+
 import { AlgebraFuncoesComponent } from './algebra-funcoes/algebra-funcoes.component';
+/*
 import { GeometriaComponent } from './geometria/geometria.component';
 import { NumerosOperacoesComponent } from './numeros-operacoes/numeros-operacoes.component';
 */
@@ -28,9 +29,9 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     SobreComponent,
     NavbarComponent,
-    //AlgebraFuncoesComponent,
-    //GeometriaComponent,
-    //NumerosOperacoesComponent,
+    AlgebraFuncoesComponent,
+    // GeometriaComponent,
+    // NumerosOperacoesComponent,
     ErrorPagesComponent,
     FooterComponent,
   ],
@@ -39,9 +40,9 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     SobreComponent,
     NavbarComponent,
-    //AlgebraFuncoesComponent,
-    //GeometriaComponent,
-    //NumerosOperacoesComponent,
+    AlgebraFuncoesComponent,
+    // GeometriaComponent,
+    // NumerosOperacoesComponent,
     FooterComponent,
   ],
 

@@ -10,7 +10,7 @@ declare var require: any;
 })
 export class SobreComponent implements OnInit {
 
-  ngOnInit() {
+  ngOnInit(): void {
 
   }
 

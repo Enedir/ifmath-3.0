@@ -21,7 +21,7 @@ export class MathPlotComponent implements OnInit {
 
   constructor() { }
 
-  public ngOnInit() {
+  public ngOnInit(): void {
     this.functionPlot = require('function-plot');
     this.draw();
   }

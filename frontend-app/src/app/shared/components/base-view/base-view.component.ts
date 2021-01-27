@@ -11,13 +11,13 @@ export class BaseViewComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.jQueryConfiguracaoSlideBar();
   }
 
   private jQueryConfiguracaoSlideBar(): void {
-    $(document).ready(function () {
-      $('[data-toggle="offcanvas"]').click(function () {
+    $(document).ready(function() {
+      $('[data-toggle="offcanvas"]').click(function() {
         $('.ifmath-view__row__offcanvas').toggleClass('active');
       });
     });
