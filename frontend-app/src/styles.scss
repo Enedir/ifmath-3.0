@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+.row{
+    margin: 0 !important;
+}
+
+a{
+    font-family: 'Raleway', sans-serif;
+}
+
+span.katex-html {
+    display: none;
+} 
