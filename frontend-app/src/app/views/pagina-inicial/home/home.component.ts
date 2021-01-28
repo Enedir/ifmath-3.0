@@ -24,7 +24,7 @@ export class HomeComponent implements OnInit {
   public imageBannerThree: string;
 
   constructor(
-    private LMatIconRegistry: MatIconRegistry,
+    private matIconRegistry: MatIconRegistry,
     private domSanitizer: DomSanitizer
   ) {
     this.populaIcones();
@@ -143,28 +143,27 @@ export class HomeComponent implements OnInit {
   }
 
   private populaIcones(): void {
-    this.LMatIconRegistry.addSvgIcon(
+    this.matIconRegistry.addSvgIcon(
       'fx',
       this.domSanitizer.bypassSecurityTrustResourceUrl(
-        require('../../../../assets/images/icons/fx.svg')
+        ('../../../../assets/images/icons/fx.svg')
       )
     );
-    this.LMatIconRegistry.addSvgIcon(
+    this.matIconRegistry.addSvgIcon(
       'sigma',
       this.domSanitizer.bypassSecurityTrustResourceUrl(
-        require('../../../../assets/images/icons/sigma.svg')
+        ('../../../../assets/images/icons/sigma.svg')
       )
     );
-    this.LMatIconRegistry.addSvgIcon(
+    this.matIconRegistry.addSvgIcon(
       'trigonometry',
       this.domSanitizer.bypassSecurityTrustResourceUrl(
-        require('../../../../assets/images/icons/trigonometry.svg')
+        ('../../../../assets/images/icons/trigonometry.svg')
       )
     );
-    this.LMatIconRegistry.addSvgIcon(
+    this.matIconRegistry.addSvgIcon(
       'estatistica',
-      this.domSanitizer.bypassSecurityTrustResourceUrl(
-        require('../../../../assets/images/icons/estatistica.svg')
+      this.domSanitizer.bypassSecurityTrustResourceUrl(('../../../../assets/images/icons/estatistica.svg')
       )
     );
   }
