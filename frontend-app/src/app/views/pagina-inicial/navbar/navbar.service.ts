@@ -7,12 +7,12 @@ export class NavBarService {
 
   @Output() eventoTituloNavBar: EventEmitter<string> = new EventEmitter();
 
-  mudarTitulo(titulo: string) {
+  mudarTitulo(titulo: string): void {
     this.titulo = titulo;
     this.eventoTituloNavBar.emit(this.titulo);
   }
 
-  retirarTitulo() {
+  retirarTitulo(): void {
     this.titulo = '';
     this.eventoTituloNavBar.emit(this.titulo);
   }

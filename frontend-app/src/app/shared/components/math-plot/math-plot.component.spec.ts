@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { waitForAsync, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MathPlotComponent } from './math-plot.component';
 
@@ -6,7 +6,7 @@ describe('MathPlotComponent', () => {
   let component: MathPlotComponent;
   let fixture: ComponentFixture<MathPlotComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ MathPlotComponent ]
     })

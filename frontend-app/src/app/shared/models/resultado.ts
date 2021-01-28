@@ -1,6 +1,6 @@
  export class ResultadoViewModel {
 
-    imagem: String[];
+    imagem: string[];
     explicacao: string;
 
 }

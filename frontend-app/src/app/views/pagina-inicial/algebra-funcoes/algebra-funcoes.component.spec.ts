@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { waitForAsync, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { AlgebraFuncoesComponent } from './algebra-funcoes.component';
 
@@ -6,7 +6,7 @@ describe('AlgebraFuncoesComponent', () => {
   let component: AlgebraFuncoesComponent;
   let fixture: ComponentFixture<AlgebraFuncoesComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ AlgebraFuncoesComponent ]
     })

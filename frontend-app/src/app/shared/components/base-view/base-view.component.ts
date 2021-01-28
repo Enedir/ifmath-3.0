@@ -16,8 +16,8 @@ export class BaseViewComponent implements OnInit {
   }
 
   private jQueryConfiguracaoSlideBar(): void {
-    $(document).ready(function() {
-      $('[data-toggle="offcanvas"]').click(function() {
+    $(document).ready(() => {
+      $('[data-toggle="offcanvas"]').click(() => {
         $('.ifmath-view__row__offcanvas').toggleClass('active');
       });
     });

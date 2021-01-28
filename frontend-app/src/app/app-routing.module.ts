@@ -22,27 +22,27 @@ const routes: Routes = [
     component: ErrorPagesComponent,
     data: {
       breadcrumbOptions: {
-        params: { color: defaultColor },
-      },
-    },
+        params: { color: defaultColor }
+      }
+    }
   },
   {
     path: '',
     component: HomeComponent,
     data: {
       breadcrumbOptions: {
-        params: { color: defaultColor },
-      },
-    },
+        params: { color: defaultColor }
+      }
+    }
   },
   {
     path: 'sobre',
     component: SobreComponent,
     data: {
       breadcrumbOptions: {
-        params: { color: defaultColor },
-      },
-    },
+        params: { color: defaultColor }
+      }
+    }
   },
 
   //#region Algebra e Funções
@@ -52,113 +52,127 @@ const routes: Routes = [
     component: AlgebraFuncoesComponent,
     data: {
       breadcrumbOptions: {
-        params: { color: algebra },
-      },
-    },
+        params: { color: algebra }
+      }
+    }
   },
   {
     path: 'algebra_e_funcoes/equacao_primeiro_grau',
-    loadChildren: './views/algebra-funcoes/equacao-primeiro-grau/equacao-primeiro-grau.module#EquacaoPrimeiroGrauModule',
+    loadChildren: () =>
+      import(
+        './views/algebra-funcoes/equacao-primeiro-grau/equacao-primeiro-grau.module'
+      ).then(m => m.EquacaoPrimeiroGrauModule),
     data: {
       breadcrumbOptions: {
         breadcrumbLabel: 'Equação do 1º Grau',
-        params: { color: algebra },
-      },
-    },
+        params: { color: algebra }
+      }
+    }
   },
   {
     path: 'algebra_e_funcoes/progressao_aritmetica',
-    loadChildren: './views/algebra-funcoes/progressao-aritmetica/progressao-aritmetica.module#ProgressaoAritmeticaModule',
+    loadChildren: () =>
+      import(
+        './views/algebra-funcoes/progressao-aritmetica/progressao-aritmetica.module'
+      ).then(m => m.ProgressaoAritmeticaModule),
     data: {
       breadcrumbOptions: {
         breadcrumbLabel: 'Progressao Aritmética',
-        params: { color: algebra },
-      },
-    },
+        params: { color: algebra }
+      }
+    }
   },
   {
     path: 'algebra_e_funcoes/progressao_geometrica',
-    loadChildren: './views/algebra-funcoes/progressao-geometrica/progressao-geometrica.module#ProgressaoGeometricaModule',
+    loadChildren:
+      './views/algebra-funcoes/progressao-geometrica/progressao-geometrica.module#ProgressaoGeometricaModule',
     data: {
       breadcrumbOptions: {
         breadcrumbLabel: 'Progressao Geometrica',
-        params: { color: algebra },
-      },
-    },
+        params: { color: algebra }
+      }
+    }
   },
   {
     path: 'algebra_e_funcoes/funcoes',
-    loadChildren: './views/algebra-funcoes/funcoes/funcoes.module#FuncoesModule',
+    loadChildren:
+      './views/algebra-funcoes/funcoes/funcoes.module#FuncoesModule',
     data: {
       breadcrumbOptions: {
         breadcrumbLabel: 'Funções',
-        params: { color: algebra },
-      },
-    },
+        params: { color: algebra }
+      }
+    }
   },
   {
     path: 'algebra_e_funcoes/analise_combinatoria',
-    loadChildren: './views/algebra-funcoes/analise-combinatoria/analise-combinatoria.module#AnaliseCombinatoriaModule',
+    loadChildren:
+      './views/algebra-funcoes/analise-combinatoria/analise-combinatoria.module#AnaliseCombinatoriaModule',
     data: {
       breadcrumbOptions: {
         breadcrumbLabel: 'Analise Combinatória',
-        params: { color: algebra },
-      },
-    },
+        params: { color: algebra }
+      }
+    }
   },
   {
     path: 'algebra_e_funcoes/trigonometria',
-    loadChildren: './views/algebra-funcoes/trigonometria/trigonometria.module#TrigonometriaModule',
+    loadChildren:
+      './views/algebra-funcoes/trigonometria/trigonometria.module#TrigonometriaModule',
     data: {
       breadcrumbOptions: {
         breadcrumbLabel: 'Trigonometria',
-        params: { color: algebra },
-      },
-    },
+        params: { color: algebra }
+      }
+    }
   },
   {
     path: 'algebra_e_funcoes/razao_e_proporcao',
-    loadChildren: './views/algebra-funcoes/razao-e-proporcao/razao-e-proporcao.module#RazaoProporcaoModule',
+    loadChildren:
+      './views/algebra-funcoes/razao-e-proporcao/razao-e-proporcao.module#RazaoProporcaoModule',
     data: {
       breadcrumbOptions: {
         breadcrumbLabel: 'Razão e Proporção',
-        params: { color: algebra },
-      },
-    },
+        params: { color: algebra }
+      }
+    }
   },
   {
     path: 'algebra_e_funcoes/juros_simples_e_compostos',
-    loadChildren: './views/algebra-funcoes/juros-simples-e-compostos/juros-simples-e-compostos.module#JurosSimplesCompostoModule',
+    loadChildren:
+      './views/algebra-funcoes/juros-simples-e-compostos/juros-simples-e-compostos.module#JurosSimplesCompostoModule',
     data: {
       breadcrumbOptions: {
         breadcrumbLabel: 'Juros Simples e Compostos',
-        params: { color: algebra },
-      },
-    },
+        params: { color: algebra }
+      }
+    }
   },
   {
     path: 'algebra_e_funcoes/regra_de_tres',
-    loadChildren: './views/algebra-funcoes/regra-de-tres/regra-de-tres.module#RegraDeTresModule',
+    loadChildren:
+      './views/algebra-funcoes/regra-de-tres/regra-de-tres.module#RegraDeTresModule',
     data: {
       breadcrumbOptions: {
         breadcrumbLabel: 'Regra de três',
-        params: { color: algebra },
-      },
-    },
+        params: { color: algebra }
+      }
+    }
   },
   {
     path: 'algebra_e_funcoes/porcentagem',
-    loadChildren: './views/algebra-funcoes/porcentagem/porcentagem.module#PorcentagemModule',
+    loadChildren:
+      './views/algebra-funcoes/porcentagem/porcentagem.module#PorcentagemModule',
     data: {
       breadcrumbOptions: {
         breadcrumbLabel: 'Porcentagem',
-        params: { color: algebra },
-      },
-    },
-  },
+        params: { color: algebra }
+      }
+    }
+  }
 
   //#endregion Algebra e Funções
-/*
+  /*
   //#region Geometria
 
   {
@@ -362,4 +376,4 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
