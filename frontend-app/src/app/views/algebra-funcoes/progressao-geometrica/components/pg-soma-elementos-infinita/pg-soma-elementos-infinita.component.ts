@@ -37,10 +37,10 @@ export class PgSomaElementosInfinitaComponent implements OnInit {
 
     this.servico.postSomaElementosInfinita(progressaoGeometrica).pipe(
       take(1),
-      tap(() => { this.loading = false; }),)
+      tap(() => { this.loading = false; }), )
       .subscribe((response) => {
         if (response.sucesso) {
-          this.resultados = <ResultadoViewModel[]>response.objeto;
+          this.resultados = (response.objeto as ResultadoViewModel[]);
         }
 
         this.loading = false;

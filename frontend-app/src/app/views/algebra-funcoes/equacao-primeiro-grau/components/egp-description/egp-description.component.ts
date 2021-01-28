@@ -10,7 +10,7 @@ export class EgpDescriptionComponent  {
   public equationTwo: string [] = [];
   public isVisibleEquationOne = false;
   public isVisibleEquationTwo = false;
-  
+
   public options: KatexOptions = {
     displayMode: true,
   };

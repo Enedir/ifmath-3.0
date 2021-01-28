@@ -2,7 +2,7 @@ export class RespostaJson {
 
     sucesso: boolean;
     mensagem: string;
-    objeto: Object;
+    objeto: object;
 
     constructor() { }
 }

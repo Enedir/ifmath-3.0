@@ -38,10 +38,10 @@ export class PaTermogeralComponent implements OnInit {
 
     this.servico.postTermoGeral(progressaoAritmetica).pipe(
       take(1),
-      tap(() => { this.loading = false; }),)
+      tap(() => { this.loading = false; }), )
       .subscribe((response) => {
         if (response.sucesso) {
-          this.resultados = <ResultadoViewModel[]>response.objeto;
+          this.resultados = (response.objeto as ResultadoViewModel[]);
         }
 
         this.loading = false;

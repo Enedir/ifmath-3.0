@@ -84,8 +84,10 @@ const routes: Routes = [
   },
   {
     path: 'algebra_e_funcoes/progressao_geometrica',
-    loadChildren:
-      './views/algebra-funcoes/progressao-geometrica/progressao-geometrica.module#ProgressaoGeometricaModule',
+    loadChildren: () =>
+      import(
+        './views/algebra-funcoes/progressao-geometrica/progressao-geometrica.module'
+      ).then(m => m.ProgressaoGeometricaModule),
     data: {
       breadcrumbOptions: {
         breadcrumbLabel: 'Progressao Geometrica',
@@ -95,8 +97,10 @@ const routes: Routes = [
   },
   {
     path: 'algebra_e_funcoes/funcoes',
-    loadChildren:
-      './views/algebra-funcoes/funcoes/funcoes.module#FuncoesModule',
+    loadChildren: () =>
+      import('./views/algebra-funcoes/funcoes/funcoes.module').then(
+        m => m.FuncoesModule
+      ),
     data: {
       breadcrumbOptions: {
         breadcrumbLabel: 'Funções',
@@ -106,8 +110,10 @@ const routes: Routes = [
   },
   {
     path: 'algebra_e_funcoes/analise_combinatoria',
-    loadChildren:
-      './views/algebra-funcoes/analise-combinatoria/analise-combinatoria.module#AnaliseCombinatoriaModule',
+    loadChildren: () =>
+      import(
+        './views/algebra-funcoes/analise-combinatoria/analise-combinatoria.module'
+      ).then(m => m.AnaliseCombinatoriaModule),
     data: {
       breadcrumbOptions: {
         breadcrumbLabel: 'Analise Combinatória',
@@ -117,8 +123,10 @@ const routes: Routes = [
   },
   {
     path: 'algebra_e_funcoes/trigonometria',
-    loadChildren:
-      './views/algebra-funcoes/trigonometria/trigonometria.module#TrigonometriaModule',
+    loadChildren: () =>
+      import('./views/algebra-funcoes/trigonometria/trigonometria.module').then(
+        m => m.TrigonometriaModule
+      ),
     data: {
       breadcrumbOptions: {
         breadcrumbLabel: 'Trigonometria',
@@ -128,8 +136,10 @@ const routes: Routes = [
   },
   {
     path: 'algebra_e_funcoes/razao_e_proporcao',
-    loadChildren:
-      './views/algebra-funcoes/razao-e-proporcao/razao-e-proporcao.module#RazaoProporcaoModule',
+    loadChildren: () =>
+      import(
+        './views/algebra-funcoes/razao-e-proporcao/razao-e-proporcao.module'
+      ).then(m => m.RazaoProporcaoModule),
     data: {
       breadcrumbOptions: {
         breadcrumbLabel: 'Razão e Proporção',
@@ -139,8 +149,10 @@ const routes: Routes = [
   },
   {
     path: 'algebra_e_funcoes/juros_simples_e_compostos',
-    loadChildren:
-      './views/algebra-funcoes/juros-simples-e-compostos/juros-simples-e-compostos.module#JurosSimplesCompostoModule',
+    loadChildren: () =>
+      import(
+        './views/algebra-funcoes/juros-simples-e-compostos/juros-simples-e-compostos.module'
+      ).then(m => m.JurosSimplesCompostoModule),
     data: {
       breadcrumbOptions: {
         breadcrumbLabel: 'Juros Simples e Compostos',
@@ -150,8 +162,10 @@ const routes: Routes = [
   },
   {
     path: 'algebra_e_funcoes/regra_de_tres',
-    loadChildren:
-      './views/algebra-funcoes/regra-de-tres/regra-de-tres.module#RegraDeTresModule',
+    loadChildren: () =>
+      import('./views/algebra-funcoes/regra-de-tres/regra-de-tres.module').then(
+        m => m.RegraDeTresModule
+      ),
     data: {
       breadcrumbOptions: {
         breadcrumbLabel: 'Regra de três',
@@ -161,8 +175,10 @@ const routes: Routes = [
   },
   {
     path: 'algebra_e_funcoes/porcentagem',
-    loadChildren:
-      './views/algebra-funcoes/porcentagem/porcentagem.module#PorcentagemModule',
+    loadChildren: () =>
+      import('./views/algebra-funcoes/porcentagem/porcentagem.module').then(
+        m => m.PorcentagemModule
+      ),
     data: {
       breadcrumbOptions: {
         breadcrumbLabel: 'Porcentagem',

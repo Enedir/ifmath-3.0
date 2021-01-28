@@ -1,9 +1,10 @@
 {
-  "extends": "tslint:recommended",
+  "extends": ["tslint:recommended", "@phenomnomnominal/angular-lazy-routes-fix"],
   "rulesDirectory": [
-    "codelyzer"
+    "codelyzer"    
   ],
   "rules": {
+    "no-lazy-module-paths": [true],
     "align": {
       "options": [
         "parameters",
